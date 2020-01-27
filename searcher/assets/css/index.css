@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: Arial;
+}
+input {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    margin: auto;
+}
+table {
+    width: 100vw;
+}
+tbody th {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    font-weight: normal;
+}

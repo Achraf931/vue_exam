@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Validation</title>
+</head>
+<body>
+<div id="app">
+    <main>
+        <form id="form" action="index.html" enctype="multipart/form-data">
+            <div class="containerInput">
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="containerInput">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <span id="error"></span>
+            <button type="submit" value="Connexion" @click.prevent="submit">Connexion</button>
+        </form>
+    </main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>

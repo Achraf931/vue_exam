@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+#left {
+    width: 50vw;
+    height: 100vh;
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+#right {
+    width: 50vw;
+    height: 100vh;
+    background-color: #F8F8F8;
+    padding: 20px;
+}
